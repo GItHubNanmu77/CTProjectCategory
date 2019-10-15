@@ -15,8 +15,8 @@ Pod::Spec.new do |spec|
   #  summary should be tweet-length, and the description more in depth.
   #
 
-  spec.name         = "CTCategory"
-  spec.version      = "0.0.2"
+  spec.name         = "CTProjectCategory"
+  spec.version      = "1.0.0"
   spec.summary      = "CTCategory of CTMainProject."
 
   # This description is used to generate tags and improve search results.
@@ -25,7 +25,7 @@ Pod::Spec.new do |spec|
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
   spec.description  = <<-DESC
-			CTCategory of CTMainProject.
+			CTProjectCategory of CTMainProject.
                    DESC
 
   spec.homepage     = "https://github.com/GItHubNanmu77/CTProjectCategory"
@@ -80,7 +80,7 @@ Pod::Spec.new do |spec|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  spec.source       = { :git => "https://github.com/GItHubNanmu77/CTProjectCategory.git", :tag => "#{spec.version}" }
+  spec.source  = { :git => "https://github.com/GItHubNanmu77/CTProjectCategory.git", :tag => "#{spec.version}" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
