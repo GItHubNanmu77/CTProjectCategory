@@ -1,5 +1,5 @@
 #
-#  Be sure to run `pod spec lint CTCategory.podspec' to ensure this is a
+#  Be sure to run `pod spec lint CTProjectCategory.podspec' to ensure this is a
 #  valid spec and to remove all comments including this before submitting the spec.
 #
 #  To learn more about Podspec attributes see https://guides.cocoapods.org/syntax/podspec.html
@@ -16,8 +16,8 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "CTProjectCategory"
-  spec.version      = "1.0.0"
-  spec.summary      = "CTCategory of CTMainProject."
+  spec.version      = "1.0.1"
+  spec.summary      = "CTProjectCategory is one of main project."
 
   # This description is used to generate tags and improve search results.
   #   * Think: What does it do? Why did you write it? What is the focus?
@@ -25,7 +25,7 @@ Pod::Spec.new do |spec|
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
   spec.description  = <<-DESC
-			CTProjectCategory of CTMainProject.
+		CTProjectCategory is category project that is one of main project.
                    DESC
 
   spec.homepage     = "https://github.com/GItHubNanmu77/CTProjectCategory"
@@ -39,7 +39,7 @@ Pod::Spec.new do |spec|
   #  Popular ones are 'MIT', 'BSD' and 'Apache License, Version 2.0'.
   #
 
-  #spec.license      = "MIT (example)"
+  # spec.license      = "MIT (example)"
   spec.license      = { :type => "MIT", :file => "LICENSE" }
 
 
@@ -80,7 +80,7 @@ Pod::Spec.new do |spec|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  spec.source  = { :git => "https://github.com/GItHubNanmu77/CTProjectCategory.git", :tag => "#{spec.version}" }
+  spec.source       = { :git => "https://github.com/GItHubNanmu77/CTProjectCategory.git", :tag => "#{spec.version}" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
