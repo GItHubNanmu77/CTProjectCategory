@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "CTProjectCategory"
-  spec.version      = "1.0.2"
+  spec.version      = "1.0.3"
   spec.summary      = "CTProjectCategory is one of main project."
 
   # This description is used to generate tags and improve search results.

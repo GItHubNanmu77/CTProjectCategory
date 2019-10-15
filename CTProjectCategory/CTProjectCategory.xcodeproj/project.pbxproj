@@ -18,6 +18,7 @@
 		4A4467E023556A5400EF31DF /* CTProjectCategoryTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A4467DF23556A5400EF31DF /* CTProjectCategoryTests.m */; };
 		4A4467EB23556A5400EF31DF /* CTProjectCategoryUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A4467EA23556A5400EF31DF /* CTProjectCategoryUITests.m */; };
 		4A4467FA23556E3800EF31DF /* CTMediator+First.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A4467F923556E3800EF31DF /* CTMediator+First.m */; };
+		4A4468012355A7EA00EF31DF /* CTMediator+Second.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A4468002355A7EA00EF31DF /* CTMediator+Second.m */; };
 		51239698D32F532D45E8B6D3 /* Pods_CTProjectCategoryTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E5F177C19A60A267FD76F93E /* Pods_CTProjectCategoryTests.framework */; };
 		7CD9DF8BA210906B4BE36E35 /* Pods_CTProjectCategory_CTProjectCategoryUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D385A15E3F1643DBAFE2515 /* Pods_CTProjectCategory_CTProjectCategoryUITests.framework */; };
 /* End PBXBuildFile section */
@@ -62,6 +63,8 @@
 		4A4467EC23556A5400EF31DF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4A4467F823556E3800EF31DF /* CTMediator+First.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CTMediator+First.h"; sourceTree = "<group>"; };
 		4A4467F923556E3800EF31DF /* CTMediator+First.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "CTMediator+First.m"; sourceTree = "<group>"; };
+		4A4467FF2355A7EA00EF31DF /* CTMediator+Second.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CTMediator+Second.h"; sourceTree = "<group>"; };
+		4A4468002355A7EA00EF31DF /* CTMediator+Second.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "CTMediator+Second.m"; sourceTree = "<group>"; };
 		6454B9FD261F444CE3A9FC99 /* Pods_CTProjectCategory.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CTProjectCategory.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9DF0E7F6DD55FF3748AF8AA0 /* Pods-CTProjectCategoryTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CTProjectCategoryTests.debug.xcconfig"; path = "Target Support Files/Pods-CTProjectCategoryTests/Pods-CTProjectCategoryTests.debug.xcconfig"; sourceTree = "<group>"; };
 		AAE07B9456AF98951E1BF46B /* Pods-CTProjectCategory.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CTProjectCategory.release.xcconfig"; path = "Target Support Files/Pods-CTProjectCategory/Pods-CTProjectCategory.release.xcconfig"; sourceTree = "<group>"; };
@@ -173,6 +176,8 @@
 			children = (
 				4A4467F823556E3800EF31DF /* CTMediator+First.h */,
 				4A4467F923556E3800EF31DF /* CTMediator+First.m */,
+				4A4467FF2355A7EA00EF31DF /* CTMediator+Second.h */,
+				4A4468002355A7EA00EF31DF /* CTMediator+Second.m */,
 			);
 			path = CTCategory;
 			sourceTree = "<group>";
@@ -431,6 +436,7 @@
 				4A4467CB23556A5300EF31DF /* ViewController.m in Sources */,
 				4A4467C523556A5300EF31DF /* AppDelegate.m in Sources */,
 				4A4467D623556A5400EF31DF /* main.m in Sources */,
+				4A4468012355A7EA00EF31DF /* CTMediator+Second.m in Sources */,
 				4A4467C823556A5300EF31DF /* SceneDelegate.m in Sources */,
 				4A4467FA23556E3800EF31DF /* CTMediator+First.m in Sources */,
 			);
