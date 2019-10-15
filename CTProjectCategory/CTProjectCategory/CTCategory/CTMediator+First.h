@@ -14,7 +14,7 @@
 NS_ASSUME_NONNULL_BEGIN
 
 @interface CTMediator (First)
-- (UIViewController *)FirstViewController;
+- (UIViewController *)First_AViewController;
 @end
 
 NS_ASSUME_NONNULL_END
