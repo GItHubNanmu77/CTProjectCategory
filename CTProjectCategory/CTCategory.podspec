@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "CTCategory"
-  spec.version      = "0.0.1"
+  spec.version      = "0.0.2"
   spec.summary      = "CTCategory of CTMainProject."
 
   # This description is used to generate tags and improve search results.
@@ -25,7 +25,7 @@ Pod::Spec.new do |spec|
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
   spec.description  = <<-DESC
-			CTCategory of CTMainProject
+			CTCategory of CTMainProject.
                    DESC
 
   spec.homepage     = "https://github.com/GItHubNanmu77/CTProjectCategory"
